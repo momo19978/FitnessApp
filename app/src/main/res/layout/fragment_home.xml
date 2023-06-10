@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:background="@drawable/background"
+    >
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="דף הבית"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/appLogoImageView"
+        android:layout_width="428dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-19dp"
+        android:layout_marginTop="-9dp"
+        android:layout_marginEnd="2dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Welcome to our Fitness App!"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bmiButton"
+        android:layout_width="182dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/welcomeTextView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="52dp"
+        android:text="בדוק את הBMI שלך" />
+
+    <RelativeLayout
+        android:id="@+id/tipContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bmiButton"
+        android:layout_marginTop="32dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+
+    </RelativeLayout>
+
+
+
+
+    <Button
+        android:id="@+id/nutritionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_below="@id/bmiButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="10dp"
+        android:padding="16dp"
+        android:text="Nutrition Guide"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/tipTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="center"
+        android:text="Fitness Tip of the Day: Eat a balanced diet and stay hydrated!"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+
+
+</RelativeLayout>

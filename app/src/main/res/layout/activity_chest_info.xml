@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chest_info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/chest" />
+
+        <TextView
+            android:id="@+id/textView_importance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Why Train Chest Muscles" />
+
+        <TextView
+            android:id="@+id/textView_importance_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textSize="16sp"
+            android:text="Explanation: Training the chest muscles is essential for several reasons. Firstly, a well-developed chest enhances upper body strength and power, allowing for better performance in various exercises and sports. Secondly, a strong chest contributes to a balanced upper body physique and aesthetics. Additionally, chest exercises help improve posture and stability, as the chest muscles work in conjunction with other muscle groups, such as the shoulders and back." />
+
+        <TextView
+            android:id="@+id/textView_division"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Muscle Division" />
+
+        <TextView
+            android:id="@+id/textView_division_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textSize="16sp"
+            android:text="The chest muscles, commonly known as the pectoralis major and pectoralis minor, are divided into several parts:\n\n- Upper Chest (Clavicular Head): Located at the upper portion of the chest, close to the collarbone.\n- Middle Chest (Sternal Head): Positioned in the middle of the chest, forming the bulk of the pectoralis major.\n- Lower Chest (Costal Head): Situated at the lower portion of the chest, close to the ribcage.\n\nTargeting each part of the chest can help achieve balanced muscle development and a well-rounded chest appearance." />
+
+        <TextView
+            android:id="@+id/textView_workout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Chest Exercises" />
+
+        <TextView
+            android:id="@+id/textView_workout_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textSize="16sp"
+            android:text="To effectively target and develop the chest muscles, incorporate a variety of exercises focusing on different parts of the chest. Here are some examples:\n\n- Barbell Bench Press: Works the entire chest, with an emphasis on the middle chest.\n- Dumbbell Flyes: Targets the chest muscles and helps with stretching and developing the pectorals.\n- Push-Ups: A bodyweight exercise that engages the chest muscles, along with the shoulders and triceps.\n- Incline Dumbbell Press: Focuses on the upper chest and helps create a well-defined upper chest line.\n- Cable Crossovers: Provides a good stretch and contraction of the chest muscles.\n- Chest Dips: Targets the lower chest and triceps.\n\nEnsure proper form and technique for each exercise and gradually increase the weight or resistance as you progress. Consulting a fitness professional or trainer is recommended for personalized workout guidance." />
+
+        <Button
+            android:id="@+id/go"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="חזור"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

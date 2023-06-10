@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".leg_info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/leg" />
+
+        <TextView
+            android:id="@+id/textView_importance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Why Train Legs" />
+
+        <TextView
+            android:id="@+id/textView_importance_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textSize="16sp"
+            android:text="Training legs is crucial for overall strength, balance, and functional movement. Strong leg muscles provide a solid foundation for various activities and sports. Leg workouts help improve lower body power, agility, and endurance. Additionally, training legs can enhance bone density and promote a toned physique. Regular leg training also has numerous health benefits, such as improved cardiovascular fitness and increased metabolism." />
+
+        <TextView
+            android:id="@+id/textView_division"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Muscle Division" />
+
+        <TextView
+            android:id="@+id/textView_division_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textSize="16sp"
+            android:text="The leg muscles can be divided into several major groups:\n\n- Quadriceps: Located at the front of the thigh, responsible for knee extension.\n- Hamstrings: Situated at the back of the thigh, responsible for knee flexion and hip extension.\n- Glutes: Comprised of the gluteus maximus, medius, and minimus, responsible for hip extension, abduction, and rotation.\n- Calves: Consist of the gastrocnemius and soleus muscles, responsible for ankle plantar flexion.\n- Hip Abductors/Adductors: Muscles that move the leg away from or toward the midline of the body. Proper training of all these muscle groups is important for balanced leg development and overall lower body strength." />
+
+        <TextView
+            android:id="@+id/textView_workout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Leg Workout" />
+
+        <TextView
+            android:id="@+id/textView_workout_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textSize="16sp"
+            android:text="To effectively work on all the muscles of the legs, incorporate a variety of exercises targeting each muscle group. Here are some examples:\n\n- Squats: Targets the quadriceps, hamstrings, and glutes.\n- Lunges: Engages quadriceps, hamstrings, and glutes.\n- Deadlifts: Targets hamstrings, glutes, and lower back.\n- Leg Presses: Focuses on quadriceps, hamstrings, and glutes.\n- Calf Raises: Works on the calf muscles.\n- Hip Thrusts: Targets glutes and hamstrings.\n- Leg Extensions: Isolates the quadriceps.\n- Leg Curls: Isolates the hamstrings.\n- Step-ups: Engages quadriceps, hamstrings, and glutes.\n\nRemember to start with lighter weights or resistance and gradually increase as you progress. Maintain proper form throughout each exercise and listen to your body to prevent injuries. Consulting a fitness professional or trainer is recommended for personalized workout guidance." />
+
+        <Button
+            android:id="@+id/go_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="חזור"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

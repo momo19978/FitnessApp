@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/firstBar"
+    android:title="First"/>
+
+    <item
+        android:id="@+id/secBar"
+        android:title="sec"/>
+    <item
+        android:id="@+id/thirdBar"
+        android:title="third">
+</item>
+
+
+
+</menu>

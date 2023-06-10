@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".back_info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textView_importance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Why Train Back" />
+
+        <TextView
+            android:id="@+id/textView_importance_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textSize="16sp"
+            android:text="Explanation: Training the back muscles is essential for several reasons. Firstly, a strong back improves posture and helps prevent common issues such as back pain and discomfort. Additionally, a well-developed back enhances overall athletic performance, as it contributes to core stability, upper body strength, and power generation. Lastly, balanced muscle development is crucial for a symmetrical physique, and neglecting the back can lead to muscular imbalances." />
+
+        <TextView
+            android:id="@+id/textView_division"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Muscle Division" />
+
+        <TextView
+            android:id="@+id/textView_division_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textSize="16sp"
+            android:text="The back muscles are divided into several major groups:\n\n- Latissimus Dorsi (Lats): The large muscles on the sides of the back that give it a wide appearance.\n- Rhomboids: Located between the shoulder blades, these muscles retract and stabilize the scapulae.\n- Trapezius (Traps): The upper portion helps elevate and retract the shoulder blades, while the lower portion aids in depression and upward rotation.\n- Erector Spinae: A group of muscles that run vertically along the spine, providing spinal extension and stability.\n\nProperly targeting and training each of these muscle groups is important for overall back strength, stability, and aesthetics." />
+
+        <TextView
+            android:id="@+id/textView_workout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Back Exercises" />
+
+        <TextView
+            android:id="@+id/textView_workout_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textSize="16sp"
+            android:text="To effectively work on all the muscles of the back, incorporate a variety of exercises targeting each muscle group. Here are some examples:\n\n- Pull-Ups: Engages the lats, rhomboids, and traps.\n- Bent-Over Rows: Targets the lats, rhomboids, and erector spinae.\n- Deadlifts: Works the entire posterior chain, including the back muscles.\n- Lat Pulldowns: Focuses on the lats and upper back.\n- Seated Cable Rows: Engages the lats, rhomboids, and traps.\n- Hyperextensions: Targets the erector spinae and lower back.\n\nRemember to start with lighter weights or resistance and gradually increase as you progress. Maintain proper form throughout each exercise and listen to your body to prevent injuries. Consulting a fitness professional or trainer is recommended for personalized workout guidance." />
+
+        <Button
+            android:id="@+id/go"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="חזור"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
